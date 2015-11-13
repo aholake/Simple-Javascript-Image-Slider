@@ -1,0 +1,15 @@
+<<html>
+<head>
+	<title></title>
+</head>
+<body id="main">
+	<script type="text/javascript">
+		function abc(a){
+			var str = a.id;
+			console.log("NAKED STR: " + str);
+			console.log(str.substr(5,1));
+		}
+	</script>
+	<a id="index1" href="#" onClick="abc(this);">Click here</a>
+</body>
+</html>
